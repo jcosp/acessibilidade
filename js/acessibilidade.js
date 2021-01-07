@@ -40,7 +40,7 @@ $btnDiminuir.on('click', function () {
 });
 
 $btnContrasteEscuro.on('click', function () {
-    var objeto = document.getElementById("conteudo_site");
+    var objeto = getElementByClass("p1inlineContent");
     var objeto2 = document.getElementById("quadro_interno");
     var objeto3 = document.getElementById("quadro_externo");
     var objeto4 = document.getElementById("titulo");
@@ -53,7 +53,7 @@ $btnContrasteEscuro.on('click', function () {
 });
 
 $btnContrasteBranco.on('click', function () {
-    var objeto = document.getElementById("conteudo_site");
+    var objeto = document.getElementByClass("p1inlineContent");
     var objeto2 = document.getElementById("quadro_interno");
     var objeto3 = document.getElementById("quadro_externo");
     muda_style(objeto, 'backgroundColor', '#f0f1f4');
